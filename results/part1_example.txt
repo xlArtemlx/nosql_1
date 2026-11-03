@@ -1,0 +1,58 @@
+=== КІЛЬКІСТЬ ДОКУМЕНТІВ ===
+tracks_raw: 113999
+tracks: 113999
+
+=== ДО ТРАНСФОРМАЦІЇ ===
+{
+  'Unnamed: 0': 0,
+  track_id: '5SuOikwiRyPMVoIQDJUgSV',
+  artists: 'Gen Hoshino',
+  album_name: 'Comedy',
+  track_name: 'Comedy',
+  popularity: 73,
+  duration_ms: 230666,
+  explicit: false,
+  danceability: 0.676,
+  energy: 0.461,
+  key: 1,
+  loudness: -6.746,
+  mode: 0,
+  speechiness: 0.143,
+  acousticness: 0.0322,
+  instrumentalness: 0.00000101,
+  liveness: 0.358,
+  valence: 0.715,
+  tempo: 87.917,
+  time_signature: 4,
+  track_genre: 'acoustic'
+}
+
+=== ПІСЛЯ ТРАНСФОРМАЦІЇ ===
+{
+  track_id: '5SuOikwiRyPMVoIQDJUgSV',
+  album_name: 'Comedy',
+  track_name: 'Comedy',
+  popularity: 73,
+  duration_ms: 230666,
+  explicit: false,
+  track_genre: 'acoustic',
+  artists: [
+    'Gen Hoshino'
+  ],
+  audio_features: {
+    danceability: 0.676,
+    energy: 0.461,
+    loudness: -6.746,
+    speechiness: 0.143,
+    acousticness: 0.0322,
+    instrumentalness: 0.00000101,
+    liveness: 0.358,
+    valence: 0.715,
+    tempo: 87.917,
+    key: 1,
+    mode: 0,
+    time_signature: 4
+  },
+  duration_sec: 230.7,
+  popularity_tier: 'high'
+}
